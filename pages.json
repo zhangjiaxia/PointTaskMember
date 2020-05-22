@@ -1,0 +1,126 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/members/personal/personal",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/members/personal/learn-list",
+			"style": {
+				"navigationBarTitleText": "学习记录"
+			}
+		},
+		{
+			"path": "pages/members/personal/browse",
+			"style": {
+				"navigationBarTitleText": "浏览记录"
+			}
+		},
+		{
+			"path": "pages/members/personal/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/members/personal/evaluation-card",
+			"style": {
+				"navigationBarTitleText": "评价卡片"
+			}
+		},
+		{
+			"path": "pages/members/task-car/task-car",
+			"style": {
+				"navigationBarTitleText": "任务车"
+			}
+		},
+		{
+			"path": "pages/members/message/message",
+			"style": {
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/base/star",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/members/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/members/city_list",
+			"style": {
+				"navigationBarTitleText": "城市选择"
+			}
+		},
+		{
+			"path": "pages/members/message/chat",
+			"style": {
+				"navigationBarTitleText": "点动客服"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/members/train/train",
+			"style": {
+				"navigationBarTitleText": "指引"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom", //自定义导航栏
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#8E8C8F",
+		"selectedColor": "#E30412",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/members/home/home",
+				"iconPath": "static/members/tab/home_grey.png",
+				"selectedIconPath": "static/members/tab/home_active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/members/train/train",
+				"iconPath": "static/members/tab/community_grey.png",
+				"selectedIconPath": "static/members/tab/community_active.png",
+				"text": "指引"
+			},
+			{
+				"pagePath": "pages/members/message/message",
+				"iconPath": "static/members/tab/msg_grey.png",
+				"selectedIconPath": "static/members/tab/msg_active.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/members/task-car/task-car",
+				"iconPath": "static/members/tab/task_grey.png",
+				"selectedIconPath": "static/members/tab/task_active.png",
+				"text": "任务车"
+			},
+			{
+				"pagePath": "pages/members/personal/personal",
+				"iconPath": "static/members/tab/mine_grey.png",
+				"selectedIconPath": "static/members/tab/mine_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

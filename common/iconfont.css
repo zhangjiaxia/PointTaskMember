@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 1743546 */
+  src: url('https://at.alicdn.com/t/font_1743546_7tjw6sli9ee.eot');
+  src: url('https://at.alicdn.com/t/font_1743546_7tjw6sli9ee.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1743546_7tjw6sli9ee.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1743546_7tjw6sli9ee.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1743546_7tjw6sli9ee.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1743546_7tjw6sli9ee.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-daifahuo:before {
+  content: "\e601";
+}
+
+.icon-about:before {
+  content: "\e616";
+}
+
+.icon-daizhifu:before {
+  content: "\e612";
+}
+
+.icon-dizhi1:before {
+  content: "\e63e";
+}
+
+.icon-kefu:before {
+  content: "\e625";
+}
+
+.icon-daishouhuo:before {
+  content: "\e640";
+}
+
+.icon-tubiaolunkuo-:before {
+  content: "\e60b";
+}
+
+.icon-tixianmingxi:before {
+  content: "\e646";
+}
+
+.icon-tuandui:before {
+  content: "\e648";
+}
+
+.icon-yuetixian:before {
+  content: "\e613";
+}
+
+.icon-wodetuandui:before {
+  content: "\e6a0";
+}
+
+.icon-gou:before {
+  content: "\e63b";
+}
+
+.icon-qianjin:before {
+  content: "\e629";
+}
+
+.icon-xiala:before {
+  content: "\e641";
+}
+
+.icon-wenhao:before {
+  content: "\e68c";
+}
+
+.icon-qiandaisel:before {
+  content: "\e67e";
+}
+
+.icon-jiahao:before {
+  content: "\e604";
+}
+
+.icon-gou1:before {
+  content: "\e84b";
+}
+
+.icon-dizhi:before {
+  content: "\e610";
+}
+
+.icon-shanchu:before {
+  content: "\e614";
+}
+
+.icon-search:before {
+  content: "\e608";
+}
+
+.icon-fanhui:before {
+  content: "\e654";
+}
+
+.icon-icon-:before {
+  content: "\e64c";
+}
+
+.icon-icon-1:before {
+  content: "\e64e";
+}
+
+.icon-cha-:before {
+  content: "\e615";
+}
+
+.icon-vip:before {
+  content: "\e600";
+}
+
+.icon-weixinfang:before {
+  content: "\e61b";
+}
+
+.icon-fenxiang:before {
+	content: "\e633";
+}
+
+/*缺少这个配置，图标显示有问题*/
+text[class*="icon-"],
+view[class*="icon-"],
+button[class*="icon-"] {
+    font-family: "iconfont";
+    font-size: inherit;
+    font-style: normal;
+	display: inline;
+}
